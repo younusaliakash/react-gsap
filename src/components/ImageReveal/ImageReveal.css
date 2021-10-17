@@ -7,14 +7,16 @@
   visibility: hidden;
 }
 .main .container .img-container {
-  width: 1080px;
+  width: 1024px;
   height: 960px;
   position: relative;
   overflow: hidden;
 }
 .main .container .img-container img {
-  width: 1080px;
+  width: 1024px;
+  height: 600px;
   position: absolute;
+  top: 200px;
 }
 .img-container::after {
   content: "";

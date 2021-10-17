@@ -2,7 +2,7 @@ import gsap from 'gsap';
 import CSSRulePlugin from 'gsap/CSSRulePlugin';
 import { Power2 } from 'gsap/gsap-core';
 import React, { useEffect, useRef } from 'react';
-import image from '../../images/flower.jpg';
+import image from '../../images/woman.jpg';
 import './ImageReveal.css';
 
 const ImageReveal = () => {
@@ -17,7 +17,7 @@ const ImageReveal = () => {
             imageReveal,
             1.4,
             {width: "0%", ease: Power2.easeInOut}
-        )
+        ).from(img, 1.4 ,{ scale: 1.6, ease: Power2.easeInOut, delay: -1.6})
     })
 
     return (
