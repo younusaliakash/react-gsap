@@ -1,10 +1,10 @@
 import './App.css';
-import RootAnimation from './components/RootAnimation/RootAnimation';
+import ImageReveal from './components/ImageReveal/ImageReveal';
 
 function App() {
   return (
     <div>
-      <RootAnimation/>
+      <ImageReveal/>
     </div>
   );
 }

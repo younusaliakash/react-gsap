@@ -1,0 +1,27 @@
+.main .container {
+  width: 1080px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+.main .container .img-container {
+  width: 1080px;
+  height: 960px;
+  position: relative;
+  overflow: hidden;
+}
+.main .container .img-container img {
+  width: 1080px;
+  position: absolute;
+}
+.img-container::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background: #ffffff;
+}
