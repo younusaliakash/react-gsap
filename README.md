@@ -12,3 +12,8 @@
 <p>Check it on <b>image reveal</b> branch</p>
 
 # 3. Testimonial Slider
+
+</br>
+<img src="/src/images/gif-3.gif" alt="">
+</br>
+<p>Check it on <b>testimonial slider</b> branch</p>
