@@ -1,10 +1,10 @@
 import './App.css';
-import RootAnimation from './components/RootAnimation/RootAnimation';
+import Testimonial from './components/Testimonial/Testimonial';
 
 function App() {
   return (
     <div>
-      <RootAnimation/>
+      <Testimonial/>
     </div>
   );
 }
