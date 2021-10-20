@@ -1,6 +1,6 @@
 # 3. Testimonial Slider
 
-<p>Demo: </p>
+<p>Demo:- </p>
 
 </br>
 <img src="/src/images/gif-3.gif" alt="">
